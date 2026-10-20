@@ -155,7 +155,7 @@ export const Footer: React.FC = () => {
       </div>
 
       {/* Bottom Disclaimer and Copyright Strip */}
-      <div className="bg-[#05163D] border-t border-white/10 py-6 text-xs text-gray-400">
+      <div className="bg-[#05163D] border-t border-white/10 pt-6 pb-20 md:pb-6 text-xs text-gray-400">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
           <div className="space-y-1">
             <p>

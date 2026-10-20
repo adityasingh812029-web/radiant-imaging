@@ -4,7 +4,7 @@ import { getWhatsAppLink } from '../config/business';
 
 export const FloatingWhatsApp: React.FC = () => {
   return (
-    <aside aria-label="WhatsApp Contact" className="fixed bottom-20 sm:bottom-6 right-4 sm:right-6 z-40">
+    <aside aria-label="WhatsApp Contact" className="fixed bottom-[4.75rem] sm:bottom-6 right-3.5 sm:right-6 z-50">
       <a
         href={getWhatsAppLink()}
         target="_blank"
